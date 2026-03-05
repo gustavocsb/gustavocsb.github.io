@@ -1,301 +1,265 @@
 <!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Gustavo Borges - Portfólio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
-		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
-	</head>
-	<body class="is-preload">
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Gustavo Borges | Analista de Dados</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Cabinet+Grotesk:wght@300;400;500;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<nav id="nav">
+<div class="wrap nav-wrap">
+  <a href="#hero" class="nav-logo">GB</a>
+  <ul class="nav-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#jornada">Jornada</a></li>
+    <li><a href="#tecnologias">Skills</a></li>
+    <li><a href="#projetos">Projetos</a></li>
+    <li><a href="#curriculo">CV</a></li>
+  </ul>
+  <button class="theme-toggle" id="themeToggle" title="Alternar tema">
+    <div class="theme-icons"><span>🌙</span><span>☀️</span></div>
+  </button>
+</div>
+</nav>
 
-		<!-- Header -->
-			<section id="header">
-				<div class="inner">
-					<span class="icon solid major fa-code"></span>
-					<h1><strong>Gustavo Borges</strong><br />
-					Analista de Dados</h1>
-					<p>Opa, eai? Seja bem-vindo(a) ao meu portfólio!<br />
-					Aqui você encontrará: um pouco sobre mim, tecnologias e projetos.</p>
-					<ul class="actions special">
-						<li><a href="#one" class="button scrolly">COMEÇAR</a></li>
-					</ul>
-				</div>
-			</section>
+<section id="hero">
+<div class="wrap">
+  <div class="hero-bg-glow glow1"></div>
+  <div class="hero-bg-glow glow2"></div>
+  <div class="wrap hero-wrap">
+  <div class="hero-left">
+    <div class="hero-eyebrow">Analista de Dados · Brasília, BR</div>
+    <h1 class="hero-name">Gustavo<br><span class="hl">Borges</span></h1>
+    <p class="hero-role">Data Analytics &amp; Business Intelligence</p>
+    <p class="hero-bio">Transformo dados complexos em decisões claras. Especialista em BI, SQL e Python, atuando no setor de saúde com foco em performance, automação e impacto real.</p>
+    <div class="hero-pills">
+      <span class="pill">Power BI</span><span class="pill">SQL</span><span class="pill">Python</span>
+      <span class="pill">ETL</span><span class="pill">QuickSight</span><span class="pill">Qlik Sense</span>
+    </div>
+    <div class="hero-cta">
+      <a href="#jornada" class="btn btn-primary">Jornada Profissional</a>
+      <a href="#curriculo" class="btn btn-ghost">Baixar CV</a>
+    </div>
+    <div class="hero-contacts">
+      <a href="https://www.linkedin.com/in/gustavo-csb/" target="_blank" class="hero-contact-btn" title="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+      </a>
+      <a href="https://github.com/gustavocsb" target="_blank" class="hero-contact-btn" title="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+      </a>
+      <a href="https://wa.me/5561992228371" target="_blank" class="hero-contact-btn" title="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884z"/></svg>
+      </a>
+      <a href="mailto:gcsb03@hotmail.com" class="hero-contact-btn" title="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div id="lottie-animation"></div>
+  </div>
+  </div><!-- /hero-wrap -->
+  <div class="hero-exp-badge">
+    <div class="badge-dot"></div>
+    <div class="badge-text"><strong id="exp-badge">Carregando...</strong>Analista de Dados · Ativo</div>
+  </div>
+</div><!-- /wrap -->
+</section>
 
-					<!-- Sobre mim -->
-			<section id="one" class="main style1">
-				<div class="container">
-					<div class="row gtr-150">
-						<div class="col-6 col-12-medium">
-							<header class="major">
-								<h2>Quem é Gustavo?</h2>
-							</header>
-							<p id="experiencia">
-								Eu sou um analista de dados com <span id="tempo-experiencia"></span> de experiência. 
-								Apesar de inicialmente buscar especialização como desenvolvedor back-end, meu 
-								primeiro emprego no Tribunal Superior do Trabalho me levou ao mundo data-driven.
-								<br> <br>
-								Minha base em lógica de programação facilitou minha transição para a área de Analytics, 
-								permitindo desenvolver um pensamento estrutural e analítico, essencial para a 
-								interpretação de dados e criação de soluções eficazes.
-							</p>
-						</div>
-						<div class="col-6 col-12-medium imp-medium">
-							<div id="lottie-animation" class="image fit"></div>
-						</div>
-					</div>
-				</div>
-			</section>
+<section id="sobre" class="section">
+<div class="wrap">
+  <div class="section-label">01</div>
+  <h2 class="section-title reveal">Quem sou eu</h2>
+  
+  <div class="inner">
+    <div class="sobre-text reveal">
+      <p>Comecei buscando especialização em <strong>desenvolvimento back-end</strong>, mas o primeiro emprego no <em>Tribunal Superior do Trabalho</em> me jogou de cabeça no mundo data-driven. Nunca mais saí.</p>
+      <p>Essa origem técnica me deu uma perspectiva diferente: consigo estruturar pipelines, escrever queries otimizadas e ao mesmo tempo traduzir os resultados em linguagem de negócio para stakeholders.</p>
+      <p>Hoje atuo na <em>INVISUAL Tecnologia</em>, entregando soluções de BI para hospitais com <strong>Amazon QuickSight, PostgreSQL e modelagem de KPIs clínico-administrativos</strong>.</p>
+    </div>
+    <div class="stats-grid reveal">
+      <div class="stat-card"><span class="stat-val" id="stat-anos">3+</span><span class="stat-lbl">Anos de experiência</span></div>
+      <div class="stat-card"><span class="stat-val">3</span><span class="stat-lbl">Empresas</span></div>
+      <div class="stat-card"><span class="stat-val">18+</span><span class="stat-lbl">Tecnologias</span></div>
+      <div class="stat-card"><span class="stat-val">∞</span><span class="stat-lbl">Linhas de SQL</span></div>
+    </div>
+  </div>
+</div><!-- /wrap -->
+</section>
 
-			<script>
-				const dataInicio = new Date(2022, 3, 1);
-				const dataAtual = new Date();
+<section id="jornada" class="section" style="background:var(--bg2)">
+<div class="wrap">
+  <div class="section-label">02</div>
+  <h2 class="section-title reveal">Jornada Profissional</h2>
+  
+  <div class="inner">
+    <div class="timeline">
 
-				let anos = dataAtual.getFullYear() - dataInicio.getFullYear();
-				let meses = dataAtual.getMonth() - dataInicio.getMonth();
+      <div class="tl-item reveal">
+        <div class="tl-left"><div class="tl-dot"></div><div class="tl-period">Mar 2025<br>Presente<span class="current">Atual</span></div></div>
+        <div class="tl-right">
+          <div class="tl-company-row"><div class="tl-logo"><img src="data:image/png;base64,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H3LI/kvOqz6bQR2tb1W+q9UF2fbt6nl01te78CvhOuve9m3D+7mVc4o2r7kZ1c6ZjeWKSX08YA6cr/wtDyBJCh8duL7RfaG5x7LqadkhHiARsfEbHxXqHaIt7JmWjIKfT45GGBzx3Efx2H4guXaT7jbrR5pPP9S5lr7Hf6XjpXNXifuvb/Hsn0hB/g5h48ampP6kf+ax4t6dojh1c+N2JYpXYbdrS2liD6lstVK8NkZKxnKWljHdRynYOtb8l4qeyDxHAOr3iv1esz//ABVK17OqLmraaSjrZ6Sbl9JBI6N+jsbBIOj9YXCgIiICIiD7hkkhmZNDI6ORjg9j2kgtIOwQR3EH2qUyTKMlyV0DsiyC6Xc04IhNbVvm9GDrfLzE63ob136HgohEE1dctyi62anst0yK7VtspgwQUk9W98MXIOVnKwkgaBIGh0B0FDxvdG9skbnNc0ghwOiCOoIK+UQTOS5Vk2Teg++PILrd/V+b0PrtW+b0e9b5eYnW9Deu/Q8FFU80tPPHUU8r4pYnB0b2OLXMcDsEEdQQRsELjRBZcpz3NMpoYaDIsnut0pYSCyGoqXPaCBoEgnROt9Ts9T16qtIiCaiyzKYscOORZFdo7K4EOt7at4pyC7mIMYPLokknp1PVfmOZVk+NNnbjuRXa0CoIMwoqt8IkI3ou5CN62db7tnxUMiC2S8TOI8zS2TPsqc09CPuvPo/rqsVdTU1lTJVVdRNUTyHcksry57j4kkkk/WuJEHPQVdXb6yKsoaqalqYjzRzQyFj2HxDgQQfMFW2v4r8Sq63uoKvOcglp3Dlcw1rwXj2gkEEg+0EnapaIOalqKilqY6mmmkhnjcHMkY4hzSO4gjqD5rkudxr7nUCouNbUVcoAaHzSF7gBsgAknp1PTzXVRS9doj089PhCcdJtF5iOY8i79VebtVUEdvqbnWT0kWvRwPmc5jdDQ0CdDQ6DwXQRK3mImInjnuWx0vMTaImY7c+Fgx/Nsxx6jNFYsrvlrpSS70NJXSxM2e88rSBs+OlJfuqcTf8AeDlP/lZv/ZU1FFN9zSSTSvlle6SR7i57nHZcSdkknvJK+ERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERB/9k=" alt="INVISUAL"></div><div><div class="tl-company">INVISUAL Tecnologia</div><div class="tl-loc">📍 Brasília, DF</div></div></div>
+          <div class="tl-role">Analista de Dados</div>
+          <ul class="tl-bullets">
+            <li>Desenvolvimento de dashboards com <strong>Amazon QuickSight</strong>, integrando PostgreSQL, MySQL e Oracle para insights gerenciais.</li>
+            <li>Modelagem de dados clínico-administrativos e criação de <strong>KPIs estratégicos</strong> para eficiência financeira hospitalar.</li>
+            <li>Colaboração com times multidisciplinares para soluções de BI alinhadas ao negócio na área de saúde.</li>
+          </ul>
+          <div class="tl-tags"><span class="tl-tag">Amazon QuickSight</span><span class="tl-tag">PostgreSQL</span><span class="tl-tag">MySQL</span><span class="tl-tag">Oracle</span><span class="tl-tag">KPIs</span></div>
+        </div>
+      </div>
+      <div class="tl-divider"></div>
 
-				if (meses < 0) {
-					anos--;
-					meses += 12;
-				}
+      <div class="tl-item reveal">
+        <div class="tl-left"><div class="tl-dot"></div><div class="tl-period">Set 2023<br>Mar 2025</div></div>
+        <div class="tl-right">
+          <div class="tl-company-row"><div class="tl-logo"><img src="data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCADIAMgDASIAAhEBAxEB/8QAHAABAQEBAQEBAQEAAAAAAAAAAAgHAQYFAgQJ/8QAQxAAAgECAwMFCwkHBQAAAAAAAAECAxEEBQYHCCESExgxlDZBUVZ0dZGxs9LTFCI0N1VhcoGyFRY1caGjwRdGhJPR/8QAGwEBAAMBAQEBAAAAAAAAAAAAAAMEBQYCBwH/xAAvEQEAAQMCAgYKAwAAAAAAAAAAAQIDBAURNFESExUhMTIGFDNSU3GBkaGxFkHw/9oADAMBAAIRAxEAPwCywAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABl23falHZ1gsHQwWDp4zNMcpSpQqtqnThG15ytxfFpJJq/HirccVe8pr2/8P0/2er8U+hvod2WR+QS9ozBShevVxXtE90O20nS8W5i01107zLaukpr77P092ar8ULeV17dN5dp+3fXyerx/umKgh6+5zaXZGF8NcGw/aRS2jZHia1TCxwWYYGcYYqjCXKj85NxnFvjZ2krPimn18GaITTuS/SNWfgwnrrFLGhZqmqiJlw2qY9GPlVW6PCHQASqDxu1vXOG0BpKpnVfDvE1pVFQw1DlcnnKjTaTdnZJJtu3e8LJ4qbyuu5Tk6eW5BGLfBOhVbS/nziuaFvn9wWUedI+yqEolLIu1xVtE7Ow0TTce9jdZcp3mZltXSU199n6e7NV+KOkpr77P092ar8UxUFfr7nNsdkYfw4WBsG2x1de5jiMkznA0MHmdOk69OeHb5utFNKSs22mrp9bur9VuOyW4Ebbpn1vUPIq3qiWT3y/j1zXRvLjdaxbeNlTRbjaNt3QATMkAAAAAAAAAAAAASrvod2eSeQS9ozBDed8+UXrTJYqS5Sy+Ta76TqSs/6P0GDGXkeeX0bRuCo/39gAIWoo/ck+k6r/AAYT11ilSaNyWUVitVxbXKcMI0u+0nVv616SlzTsezh871zjq/p+odABOyWEb5/cFk/nSPsqhKJVu+fKP7iZPFtcp5mmlfrSpVL+teklIzcnzu+9H+Dj5z+wAFduNc3TPrfoeRVvVEshkcbpUZPa9Sai7LA1m3bqXzV/lFjs0cXyOD9IuL+kOgAssEAAAAAAABl+2na5l+zqphsBDASzLNMTDnY0Oc5uNOndpSlKz62nZJcbO7XC+XdKDNb3/dPBdrn7p53e747WYebaP6pmOlC7eriuYidoh22m6Pi3MamuuneZ71C9KDNvFPBdrl7p+J7z+cODUNK4KMrcG8VJpP71ZX9JPoIuvuc1/sTC9z8y+5rjVWb6x1DWzvOqsZ4iolGMIK0KcFe0IK7sldvi2222222z4YBFMzM7y0rdum3RFFMbRHhAAD8e3pdnetc60Ln6zjJp03KUHTrUasW6dWDadpJNPrSaaaaa8F09fW8/m3JSlpTBN99/K5JfpJ7BJTdrojaJUcjTcbIq6V2neeahelBm3ingu1y90dKDNvFPBdrl7pPQPXX3OaDsTC9z8y1bF5trDb1rnBZVJ4bB0aEJzhTgnzWGp3XKqSu7ybfJX3tpKybZo0N1/LlTXO6uxcp24uODik/5JydvSeW3M0ntAzZ24/st+1plY/eWbNum5T0qu+Zc/qmfewr3UY89GmITz0Xsr8bcZ2SPvDovZX424zskfeKGBL1Fvkze2c34k/hnuyfZVkGz118Tga1fG5hiIqFTFV7JqF0+TFJWim0m+ttpceCNCQQJYiKY2hQvXq71c13J3mXQAfqMAAAAAAABHm959bMfNtH9UzHTYt7z62Y+baP6pmOmVe88vpWlcHb+UAAImgAAAAAAAAAADc9zL6wc282P2tMrLwEm7mbX+oGaq/H9mP2tMrLwGnjezh8+1/javp+gAE7GAAAAAAAAAAAAAGX7adkeX7RJ4bHwx8stzTDQ5qNbm+cjUp3bUZRuupttNPhd3T4Wy5br+av/AHZguyT94p9ffxOvrIqrNFU7zHe0cfVcrHoiiiruhMHRfzbxswXZJe8fme7BnCg3DVeBlK3zU8LJJv73d29BUP5nfzPPq9vkn7ezve/EP89tcaVzfRuoa2SZ1SjDEU0pRnB3hUg72nB2V07PrSaaaaTTR8M3nfOjFa1yWSiuU8vd333acuH9X6TBihcpiiqYh2un5FWRjU3KvGfEABGuvS7O9FZ1rrP1lGTQpqUYOpWrVZNU6UE0ryaTfW0kkm234Lta/HdgzZpX1ZglK3FfJJ+8f07k0YvFark0uUoYSz7/ABdX/wAXoKXfXxL1mxRVRvLkNW1jJsZM2rc7RCYOi/m3jZguyS94dF/NvGzBdkl7xT/5nfzJfV7fJmdvZ3vfiEYYvKdYbBdc4LNZLDYyjXhOEKkG+axNO65VOV1eLT5L+5pNXSaNGp70OXOnF1NI4uM7cVHGRaX8m4q/oPob50Y/uJk8rLlLNEr+BOlUv/glMrV1zZq6NPg6DDxrOqWKb2RTvV4bx3bqe6UGV+KeM7XH3R0oMr8U8Z2uPukwg8es3FnsDB92fuuLZRtVyDaHz+GwNKvgsww8VUqYWva7hdLlRadmk2k+pptcOKNCRG+6ZKS2u0kpNXwNZNX6181/4RZHhVy7ZrmuneXI6vh0YmRNujw23dABMzAAAAAAAAAAAAABKu+h3Z5J5BL2jMEN730O7PJPIJe0Zghl5Hnl9F0XgqP9/YACFqqO3JfpOrPwYT11iliadyX6Tqz8GE9dYpY07Hs4fO9c46v6fqHUACdksI3z+4LKPOkfZVCUSrt8/uCyjzpH2VQlEzcnzu+9HuDj5z+wAFduNc3TPrfoeRVvVEshkb7pn1v0PIq3qiWQzRxfI4P0i4v6Q6ACywQAAAAAAAAAAAABl23bZZHaJgsJWwWNhgs0wKlGlOrFunUjK14StxVmk00nbjwd+GK9GrXt/wCI6fX/ACavwiug7v7iGuxRXO8w08bV8rGo6uie6Ei9GvXv2hp7tNX4QW7Xr26TzHT9u+/lFXh/aK7B59WtrH8gzOcfZnWw/ZtS2c5FiaNTFLG5jjpxniq0I8mPzU1GEU+NleTu+LbfVwRog4AmpjoxEQyL16q9XNyud5l0AHpG8btb0Nhdf6RqZLXxLw1aNVV8NX5PK5uok0m1dXTTaav3/CieKu7VruM5Knmen5xT4N4iqm1/1uxXDOf1I67NFffMNDE1TIxKZotz3JG6NevvtDT/AGmr8IdGvX32hp/tNX4RXQI/Vra3/IM3nH2Y3sG2OVdB5hiM7znHUMZmdSk6FOGHT5ujFtOTu0m27JdSsr9d+Gy3OWBNTTFMbQysjJuZNc3Lk7y6AD0hAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//9k=" alt="Hospital Santa Lúcia"></div><div><div class="tl-company">Hospital Santa Lúcia</div><div class="tl-loc">📍 Brasília, DF · 1a 7m</div></div></div>
 
-				let textoExperiencia = `${anos} ano${anos !== 1 ? 's' : ''}`;
-				if (meses > 0) {
-					textoExperiencia += ` e ${meses} ${meses !== 1 ? 'meses' : 'mês'}`;
-				}
+          <!-- Cargo Pleno -->
+          <div style="border-left:2px solid var(--border2);padding-left:16px;margin-top:4px;">
+            <div class="tl-role" style="margin-bottom:4px">Analista de Business Intelligence Pleno</div>
+            <div style="font-family:var(--mono);font-size:11px;color:var(--text3);margin-bottom:12px;">Set 2024 · Mar 2025 · 7 meses</div>
+            <ul class="tl-bullets">
+              <li>Gerenciou <strong>QlikView / Qlik Sense / Power BI</strong> para mais de 10 hospitais, reduzindo o tempo de carregamento de dashboards em <strong>25%</strong>.</li>
+              <li>Criação e manutenção do <strong>Data Warehouse</strong>, reduzindo sobrecarga do banco em ~40% via estruturação eficiente de dados.</li>
+              <li>ETL com Pentaho integrando Oracle, MySQL, APIs REST e Big Data; análises preditivas e relatórios estratégicos para o <strong>CEO e stakeholders</strong>.</li>
+              <li>RPA com Python e Power Automate, eliminando tarefas manuais e otimizando processos de analytics.</li>
+            </ul>
+            <div class="tl-tags" style="margin-bottom:0"><span class="tl-tag">Qlik Sense</span><span class="tl-tag">Power BI</span><span class="tl-tag">Pentaho</span><span class="tl-tag">Data Warehouse</span><span class="tl-tag">RPA</span></div>
+          </div>
 
+          <!-- Cargo Júnior -->
+          <div style="border-left:2px solid var(--border2);padding-left:16px;margin-top:20px;">
+            <div class="tl-role" style="margin-bottom:4px">Analista de Business Intelligence Júnior</div>
+            <div style="font-family:var(--mono);font-size:11px;color:var(--text3);margin-bottom:12px;">Set 2023 · Set 2024 · 1 ano 1 mês</div>
+            <ul class="tl-bullets">
+              <li>Criação de painéis analíticos para áreas financeiras e operacionais, reduzindo em até <strong>35%</strong> o tempo gasto em análises manuais.</li>
+              <li>Automação de processos com RPA, reduzindo o tempo médio de resposta para chamados em <strong>~50%</strong>.</li>
+              <li>Gerenciamento do <strong>Portal Orçamentário de Despesas</strong>, controlando acessos e atualizações de insights por setor.</li>
+            </ul>
+            <div class="tl-tags" style="margin-bottom:0"><span class="tl-tag">Power BI</span><span class="tl-tag">SQL</span><span class="tl-tag">Power Automate</span><span class="tl-tag">APIs REST</span><span class="tl-tag">Python</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="tl-divider"></div>
 
-				document.getElementById("tempo-experiencia").textContent = textoExperiencia;
-			</script>
+      <div class="tl-item reveal">
+        <div class="tl-left"><div class="tl-dot"></div><div class="tl-period">Abr 2022<br>Set 2023</div></div>
+        <div class="tl-right">
+          <div class="tl-company-row"><div class="tl-logo"><img src="data:image/png;base64,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" alt="TST"></div><div><div class="tl-company">Tribunal Superior do Trabalho</div><div class="tl-loc">📍 Brasília, DF</div></div></div>
+          <div class="tl-role">Analista de Dados</div>
+          <ul class="tl-bullets">
+            <li>Dashboards <strong>Power BI</strong> reduzindo em 40% o tempo de relatórios orçamentários.</li>
+            <li>Painéis de RH para metas e controle financeiro, otimizando gestão de benefícios em <strong>~20%</strong>.</li>
+            <li>Automação com <strong>Python e Power Automate</strong>; extração com DBeaver e Power Query.</li>
+          </ul>
+          <div class="tl-tags"><span class="tl-tag">Power BI</span><span class="tl-tag">Python</span><span class="tl-tag">Power Automate</span><span class="tl-tag">DBeaver</span><span class="tl-tag">JIRA</span></div>
+        </div>
+      </div>
 
+    </div>
+  </div>
+</div><!-- /wrap -->
+</section>
 
-			<script>
-				var animation = lottie.loadAnimation({
-					container: document.getElementById('lottie-animation'),
-					path: 'images/data-analyst-lottie.json',
-					renderer: 'svg', 
-					loop: true, 
-					autoplay: true, 
-				});
-			</script>
+<section id="tecnologias" class="section" style="background:var(--bg)">
+<div class="wrap">
+  <div class="section-label">03</div>
+  <h2 class="section-title reveal">Tecnologias</h2>
+  <p class="section-sub reveal">Tecnologias que utilizo no dia a dia.</p>
+  <div style="margin-top:48px">
+    <div class="marquee-wrap reveal"><div class="marquee-track" id="row1"></div></div>
+    <div class="marquee-wrap reveal" style="margin-top:4px"><div class="marquee-track rev" id="row2"></div></div>
+  </div>
+</div><!-- /wrap -->
+</section>
 
-		<!-- Tecnologias -->
-		<section id="two" class="main style2">
-			<div class="container">
-				<div class="row justify-content-center text-center">
-					<div class="col-12">
-						<header class="major">
-							<h2>Tecnologias</h2>
-						</header>
-					</div>
-				</div>
-				<div class="row gtr-150 justify-content-center text-center">
-					<div class="col-12 col-10-medium">
-						<ul class="major-icons">
-							<div class="row">
-								<li>
-									<div class="tech-card">
-										<p>Python</p>
-										<img src="images/python.png" alt="Python" class="icon-image">
-									</div>
-								</li>
-								<li>
-									<div class="tech-card">
-										<p>SQL</p>
-										<img src="images/sql.png" alt="SQL" class="icon-image">
-									</div>
-								</li>
-								<li>
-									<div class="tech-card">
-										<p>Power BI</p>
-										<img src="images/power-bi.png" alt="Power BI" class="icon-image">
-									</div>
-								</li>
-								<li>
-									<div class="tech-card">
-										<p>Qlik Sense</p>
-										<img src="images/qlik.png" alt="Qlik Sense" class="icon-image">
-									</div>
-								</li>
-								<li>
-									<div class="tech-card">
-										<p>Excel</p>
-										<img src="images/excel.png" alt="Excel" class="icon-image">
-									</div>
-								</li>
-								<li>
-									<div class="tech-card">
-										<p>Looker</p>
-										<img src="images/looker.svg" alt="Analytics" class="icon-image">
-									</div>
-								</li>
-								<!--<li>
-									<div class="tech-card">
-										<p>Analytics</p>
-										<img src="images/ds.png" alt="Analytics" class="icon-image">
-									</div>
-								</li>-->
-							</div>
-							<div class="row">
-								<li>
-									<div class="tech-card">
-										<p>BigQuery</p>
-										<img src="images/bigquery.png" alt="JavaScript" class="icon-image">
-									</div>
-								</li>
-								<li>
-									<div class="tech-card">
-										<p>GA4</p>
-										<img src="images/ga4.png" alt="Git" class="icon-image">
-									</div>
-								</li>
-								<li>
-									<div class="tech-card">
-										<p>PostgreSQL</p>
-										<img src="images/postgresql.png" alt="Docker" class="icon-image">
-									</div>
-								</li>
-								<li>
-									<div class="tech-card">
-										<p>Power Automate</p>
-										<img src="images/power-automate.png" alt="JavaScript" class="icon-image">
-									</div>
-								</li>
-								<li>
-									<div class="tech-card">
-										<p>Pentaho</p>
-										<img src="images/pentaho.png" alt="Git" class="icon-image">
-									</div>
-								</li>
-								<li>
-									<div class="tech-card">
-										<p>Flask</p>
-										<img src="images/flask.png" alt="Docker" class="icon-image">
-									</div>
-								</li>
-							</div>
-							<div class="row">
-								<li>
-									<div class="tech-card">
-										<p>Git</p>
-										<img src="images/git.png" alt="JavaScript" class="icon-image">
-									</div>
-								</li>
-								<li>
-									<div class="tech-card">
-										<p>JIRA</p>
-										<img src="images/jira.png" alt="Git" class="icon-image">
-									</div>
-								</li>
-								<li>
-									<div class="tech-card">
-										<p>HTML</p>
-										<img src="images/html.png" alt="Docker" class="icon-image">
-									</div>
-								</li>
-								<li>
-									<div class="tech-card">
-										<p>CSS</p>
-										<img src="images/css.png" alt="JavaScript" class="icon-image">
-									</div>
-								</li>
-								<li>
-									<div class="tech-card">
-										<p>JavaScript</p>
-										<img src="images/javascript.png" alt="Git" class="icon-image">
-									</div>
-								</li>
-								<li>
-									<div class="tech-card">
-										<p>DBeaver</p>
-										<img src="images/dbeaver.png" alt="Docker" class="icon-image">
-									</div>
-								</li>
-							</div>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		
+<section id="projetos" class="section" style="background:var(--bg2)">
+<div class="wrap">
+  <div class="section-label">04</div>
+  <h2 class="section-title reveal">Projetos</h2>
+  <p class="section-sub reveal">Em construção. Em breve, cases reais com código e dashboards.</p>
+  <div class="inner">
+    <div class="proj-card reveal">
+      <div class="proj-num">001</div>
+      <div class="proj-title">Dashboard Hospitalar</div>
+      <p class="proj-desc">Painel executivo de KPIs clínico-administrativos com Amazon QuickSight integrando múltiplas bases hospitalares.</p>
+      <div class="proj-tags"><span class="proj-tag">QuickSight</span><span class="proj-tag">PostgreSQL</span><span class="proj-tag">Oracle</span></div>
+      <span class="proj-wip">Em breve</span>
+    </div>
+    <div class="proj-card reveal">
+      <div class="proj-num">002</div>
+      <div class="proj-title">Pipeline ETL Automatizado</div>
+      <p class="proj-desc">Pipeline de carga incremental com Pentaho e BigQuery, automatizando integração de 5+ fontes de dados.</p>
+      <div class="proj-tags"><span class="proj-tag">Pentaho</span><span class="proj-tag">BigQuery</span><span class="proj-tag">Python</span></div>
+      <span class="proj-wip">Em breve</span>
+    </div>
+    <div class="proj-card reveal">
+      <div class="proj-num">003</div>
+      <div class="proj-title">RPA Financeiro</div>
+      <p class="proj-desc">Automação de processos financeiros com Python e Power Automate, reduzindo tempo de resposta em ~50%.</p>
+      <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">Power Automate</span><span class="proj-tag">RPA</span></div>
+      <span class="proj-wip">Em breve</span>
+    </div>
+  </div>
+</div><!-- /wrap -->
+</section>
 
-		<!-- Projetos -->
-			<section id="three" class="main style1 special">
-				<div class="container">
-					<header class="major">
-						<h2>Projetos</h2>
-					</header>
-					<p>Confira alguns projetos que desenvolvi.</p>
-					<div class="row gtr-150">
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
-							<h3>Projeto 1</h3>
-							<p>WIP.</p>
-							<ul class="actions special">
-								<li><a href="#" class="button">Ver Projeto</a></li>
-							</ul>
-						</div>
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
-							<h3>Projeto 2</h3>
-							<p>WIP.</p>
-							<ul class="actions special">
-								<li><a href="#" class="button">Ver Projeto</a></li>
-							</ul>
-						</div>
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-							<h3>Projeto 3</h3>
-							<p>WIP.</p>
-							<ul class="actions special">
-								<li><a href="#" class="button">Ver Projeto</a></li>
-							</ul>
-						</div>
-					</div>
-					
-				</div>
-			</section>
+<section id="formacao" class="section">
+<div class="wrap">
+  <div class="section-label">05</div>
+  <h2 class="section-title reveal">Formação &amp; Certificações</h2>
+  <div class="inner">
+    <div>
+      <p style="font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:.15em;text-transform:uppercase;margin-bottom:20px;" class="reveal">Educação</p>
+      <div class="edu-card reveal">
+        <div class="edu-icon">🎓</div>
+        <div><div class="edu-degree">Engenharia de Software</div><div class="edu-school">Universidade Católica de Brasília</div><div class="edu-period">Jan 2021 – Dez 2025</div></div>
+      </div>
+    </div>
+    <div>
+      <p style="font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:.15em;text-transform:uppercase;margin-bottom:20px;" class="reveal">Certificações</p>
+      <div class="certs-list">
+        <div class="cert-item reveal"><div class="cert-icon">🏅</div><div><div class="cert-name">Business Intelligence Foundation Professional (BIFPC)</div><div class="cert-issuer">Certiprof · Válido até 2027</div></div></div>
+        <div class="cert-item reveal"><div class="cert-icon">📊</div><div><div class="cert-name">Microsoft Power BI para BI e Data Science</div><div class="cert-issuer">Data Science Academy · 72h · 2023</div></div></div>
+        <div class="cert-item reveal"><div class="cert-icon">🐍</div><div><div class="cert-name">Fundamentos de Python para Data Science</div><div class="cert-issuer">Data Science Academy · 72h · 2025</div></div></div>
+        <div class="cert-item reveal"><div class="cert-icon">🌐</div><div><div class="cert-name">Inglês Avançado</div><div class="cert-issuer">Wizard by Pearson · 420h</div></div></div>
+      </div>
+    </div>
+  </div>
+</div><!-- /wrap -->
+</section>
 
-		<!-- Currículo -->
-			<section id="four" class="main style2 special">
-				<div class="container">
-					<header class="major">
-						<h2>Currículo</h2>
-					</header>
-					<p>Gostou do perfil? Visualize minhas experiências no currículo.</p>
-					<ul class="actions special">
-						<li><a href="docs/CV_Gustavo_Borges_AnalistaDeDados.pdf" download class="button wide primary">BAIXAR CV</a></li>
-						<li><a href="docs/CV_Gustavo_Borges_AnalistaDeDados.pdf" target="_blank" class="button wide">ABRIR NA WEB</a></li>
-					</ul>
-				</div>
-			</section>
+<section id="curriculo" class="section">
+<div class="wrap">
+  <div class="inner">
+    <div class="reveal"><h2>Vamos<br>conversar?</h2><p style="margin-top:12px">Confira meu currículo completo ou entre em contato para trocar uma ideia sobre dados, BI ou oportunidades.</p></div>
+    <div class="curriculo-btns reveal">
+      <a href="docs/CV_Gustavo_Borges_AnalistaDeDados.pdf" download class="btn btn-primary">⬇ Baixar CV</a>
+      <a href="docs/CV_Gustavo_Borges_AnalistaDeDados.pdf" target="_blank" class="btn btn-ghost">Abrir PDF</a>
+    </div>
+  </div>
+</div><!-- /wrap -->
+</section>
 
-		<!-- Footer -->
-			<section id="footer">
-				<h2><strong>Entre em contato</strong></h2>
-				<ul class="icons">
-					<li><a href="https://wa.me/5561992228371?text=Bom%20dia!%20Estou%20entrando%20em%20contato%20pelo%20seu%20portf%C3%B3lio." class="icon brands alt fa-whatsapp" class="icon brands alt fa-whatsapp" target="_blank"><span class="label">WhatsApp</span></a></li>
-					<li><a href="https://www.instagram.com/gnstavo_/" class="icon brands alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-					<li><a href="https://github.com/gustavocsb" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-					<li><a href="https://www.linkedin.com/in/gustavo-csb/" class="icon brands alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-					<li><a href="mailto:gcsb03@hotmail.com?subject=Entre%20em%20contato%20-%20Portf%C3%B3lio" class="icon solid alt fa-envelope" target="_blank"><span class="label">Email</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Gustavo Borges</li><li>Analista de Dados</a></li>
-				</ul>
-			</section>
+<footer id="footer">
+<div class="wrap footer-wrap">
+  <div class="footer-copy"><strong>Gustavo Borges</strong> · Analista de Dados<br>gcsb03@hotmail.com</div>
+  <div class="socials">
+    <a href="https://wa.me/5561992228371" target="_blank" class="social-btn" title="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884z"/></svg></a>
+    <a href="https://github.com/gustavocsb" target="_blank" class="social-btn" title="GitHub"><svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+    <a href="https://www.linkedin.com/in/gustavo-csb/" target="_blank" class="social-btn" title="LinkedIn"><svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+    <a href="https://www.instagram.com/gnstavo_/" target="_blank" class="social-btn" title="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+    <a href="mailto:gcsb03@hotmail.com" class="social-btn" title="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+  </div>
+</div><!-- /footer-wrap -->
+</footer>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+<script src="assets/main.js"></script>
+</body>
 </html>
